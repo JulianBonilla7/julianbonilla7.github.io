@@ -103,13 +103,24 @@ body {
 
 .nav-tabs {
   border: none;
+  
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+
+.btn-cta {
+  color: #FFFFFF;
+  background-color: #35CDA0;
+  border-color: #35CDA0;
+  font-size: 14px;
 }
 
 .nav-tabs .nav-link, .nav-tabs .nav-link.active {
   font-size: 14px;
   color: #FFFFFF;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 17px 24px;
   background-color: transparent;
   border: none;
 }
@@ -117,4 +128,37 @@ body {
 .nav-tabs .nav-link.active{
   background-color: transparent;
   border-bottom: 5px solid #009FE0;
+}
+
+.avatar img{
+  height: 36px;
+}
+
+.avatar .navbar-text{
+  color: #346EBC;
+  font-size: 14px;
+}
+
+/* Dropdown menu */
+.dropdown-item {
+  font-size: 18px;
+  color: #346EBC;
+}
+.dropdown-item img {
+  height: 24px;
+}
+
+@media (max-width: 576px) {
+  .nav-tabs, .btn-cta {
+    width: 100%;
+  }
+  .btn-cta {
+    margin: 1em 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .offcanvas-collapse {
+    background-color: #FFFFFF;
+  }
 }
