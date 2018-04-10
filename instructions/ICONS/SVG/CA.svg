@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#254176;}
+	.st2{opacity:0.5;fill:url(#SVGID_3_);enable-background:new    ;}
+	.st3{opacity:0.5;fill:url(#SVGID_4_);enable-background:new    ;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'OpenSans-Semibold';}
+	.st6{font-size:393.082px;}
+	.st7{letter-spacing:-19;}
+</style>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="300" cy="300" r="299"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<rect x="1.4" y="1.5" class="st1" width="604.7" height="604.7"/>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="303.7203" y1="363.9003" x2="303.7203" y2="-1.3356" gradientTransform="matrix(1 0 0 -1 0 602)">
+			<stop  offset="0" style="stop-color:#CC8720"/>
+			<stop  offset="1" style="stop-color:#8E5966;stop-opacity:0.5"/>
+		</linearGradient>
+		<path class="st2" d="M606,606.1H1.4V396.3c0,0,56.8,117,158,117s181.4-171.6,181.4-171.6s49.5-108.4,114.6-108.4
+			c40.4,0,92.9,67.9,150.8,119.3L606,606.1z"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="303.7203" y1="467.9477" x2="303.7203" y2="-1.1635" gradientTransform="matrix(1 0 0 -1 0 602)">
+			<stop  offset="0" style="stop-color:#CC8720"/>
+			<stop  offset="1" style="stop-color:#8E5966;stop-opacity:0.5"/>
+		</linearGradient>
+		<path class="st3" d="M606,131.3c-108.7,68.3-151.5,294.9-197.6,294.9c-72.9,0-178.4-276.5-277.7-276.5S1.4,206.3,1.4,206.3v399.8
+			H606L606,131.3z"/>
+		<text transform="matrix(1 0 0 1 51.7148 440.6328)" class="st4 st5 st6 st7">CA</text>
+	</g>
+</g>
+</svg>
