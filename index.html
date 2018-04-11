@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/style.css">
   </head>
-  <body class="bg-light">
+  <body>
     <div class="fixed-top">
       <nav class="navbar navbar-expand-sm navbar-light bg-white navbar-main">
         <a class="navbar-brand" href="#">
@@ -21,34 +21,27 @@
         <div class="navbar-collapse offcanvas-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="assets/images/hamburguer.svg" alt="">Settings
+              <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="assets/images/hamburguer.svg" alt="">
+                <div class="selected"></div>
               </a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">
-                  <img src="assets/images/SA.svg" alt="" class="rounded-circle">Self-Assesment
-                  </a>
-                <a class="dropdown-item" href="#">
-                  <img src="assets/images/TF.svg" alt="" class="rounded-circle">Talent fit for recruiting
-                </a>
-                <a class="dropdown-item" href="#">
-                  <img src="assets/images/CA.svg" alt="" class="rounded-circle">Culture Analytics
-                </a>
-                <a class="dropdown-item" href="#">
-                  <img src="assets/images/ES.svg" alt="" class="rounded-circle">Engagement Suite
-                </a>
-                <a class="dropdown-item" href="#">
-                  <img src="assets/images/SA.svg" alt="" class="rounded-circle">Admin
-                </a>
+              <div id="dropdown" class="dropdown-menu no-border" aria-labelledby="dropdown01">
               </div>
             </li>
           </ul>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a href="#" class="nav-link icons"><img src="assets/images/search.png" alt="Search"></a>
+              <a href="#" class="nav-link icons">
+                <img src="assets/images/search.png" alt="Search">
+                <span class="d-inline d-sm-none">Search</span>
+              </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link icons"><img src="assets/images/bell.png" alt="Notifications"><span class="badge badge-light">1</span></a>
+              <a href="#" class="nav-link icons">
+                <img src="assets/images/bell.png" alt="Notifications">
+                <span class="badge badge-light">1</span>
+                <span class="d-inline d-sm-none">Notifications</span>
+              </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link avatar">
@@ -62,83 +55,26 @@
               </nav>
       <nav class="navbar navbar-expand-md navbar-dark bg-blue navbar-secondary">
         <ul class="nav nav-tabs flex-column flex-sm-row mr-auto" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link text-center active" data-toggle="tab" role="tab" href="#">Dashboard</a>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-center active" data-toggle="tab" role="tab" data-title="Dashboard title" data-text="SA Call to Action" href="#">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center" data-toggle="tab" role="tab" href="#">Option 1</a>
+            <a class="nav-link text-center" data-toggle="tab" role="tab" data-title="Option 1 title" data-text="Another Call to Action" href="#">Option 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center" data-toggle="tab" role="tab" href="#">Option 2</a>
-          </li>
+            <a class="nav-link text-center" data-toggle="tab" role="tab" data-title="Option 2 title" data-text="One more Call to Action" href="#">Option 2</a>
+          </li> -->
         </ul>
-        <a id="cta" class="btn btn-primary btn-cta" href="#" role="button">Call to action</a>
+        <a id="cta" class="btn btn-primary btn-cta" href="#" role="button">SA Call to Action</a>
       </nav>
     </div>
-    <!-- <nav class="navbar navbar-expand-md fixed-top">
-      <a class="navbar-brand" href="#">
-        <img src="../assets/images/humantelligence-blue.png" alt="Humantelligence logo">
-      </a>
-      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Notifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Switch account</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Self-Assesment</a>
-              <a class="dropdown-item" href="#">Talent fit for recruiting</a>
-              <a class="dropdown-item" href="#">Culture Analytics</a>
-              <a class="dropdown-item" href="#">Engagement Suite</a>
-              <a class="dropdown-item" href="#">Admin</a>
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link icons"><img src="assets/images/search.png" alt="Search"></a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link icons"><img src="assets/images/bell.png" alt="Notifications"></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="nav-scroller bg-white box-shadow">
-      <nav class="nav nav-underline">
-        <a class="nav-link active" href="#">Dashboard</a>
-        <a class="nav-link" href="#">
-          Friends
-          <span class="badge badge-pill bg-light align-text-bottom">27</span>
-        </a>
-        <a class="nav-link" href="#">Explore</a>
-        <a class="nav-link" href="#">Suggestions</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-      </nav>
-    </div> -->
-
-    <main role="main" class="container">
+    <main role="main" class="main">
       <!-- Content here -->
-      <h1>Dashboard sample title here</h1>
+      <h1 id="title" class="title">Dashboard sample title here</h1>
+      <div class="card no-border">
+        <div class="card-body">&nbsp;</div>
+      </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
