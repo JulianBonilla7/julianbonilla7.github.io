@@ -22,6 +22,7 @@
   padding: 0 24px;
 }
 
+
 .no-border {
   border: none;
   border-radius: 0;
@@ -101,6 +102,7 @@ body {
 .navbar-brand {
   margin-right: 40px;
 }
+
 .navbar-brand img{
   height: 28px;
 }
@@ -125,6 +127,11 @@ body {
   font-size: 14px;
 }
 
+.btn-cta:hover {
+  background-color: #029A6D;
+  border-color: #029A6D;
+}
+
 .nav-tabs .nav-link, .nav-tabs .nav-link.active {
   font-size: 14px;
   color: #FFFFFF;
@@ -138,6 +145,10 @@ body {
   border-bottom: 5px solid #009FE0;
 }
 
+.nav-tabs .nav-link:not(.active):hover{
+  color: #ccc;
+}
+
 .avatar img{
   height: 36px;
 }
@@ -147,6 +158,15 @@ body {
   font-size: 14px;
 }
 
+.badge-red {
+  background-color: #FF0000;
+  border-radius: 50%;
+  color: #FFFFFF;
+  height: 2em;
+  padding: 0.5em;
+  vertical-align: middle;
+  width: 2em;
+}
 /* Dropdown menu */
 .dropdown-toggle img {
   height: 20px;
@@ -167,6 +187,9 @@ body {
 }
 .dropdown-item .dropdown-label{
   font-size: 18px;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: transparent;
 }
 .dropdown-icon{
   height: 24px;
@@ -202,7 +225,24 @@ body {
 }
 
 @media (max-width: 767.98px) {
+  .dropdown-menu {
+    padding-left: 0;
+    box-shadow: none;
+  }
+
   .offcanvas-collapse {
     background-color: #FFFFFF;
+  }
+
+  .offcanvas-collapse .nav-buttons {
+    align-items: initial !important;
+    flex-direction: column-reverse;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+  }
+
+  .offcanvas-collapse .nav-buttons .nav-link {
+    color: #346EBC;
   }
 }
